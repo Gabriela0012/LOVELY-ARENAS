@@ -12,7 +12,7 @@ body {
 }
 /* grid de todas las paginas */
 .contenedores {
-  width: 110%;
+  width: 100%;
   max-width: 1400px;
   display: grid;
   grid-gap: 20px;
@@ -107,23 +107,21 @@ a:hover, a:active{
 /* sidebar */
 .contenedores .sidebar{
   grid-area: sidebar;
+  background-color: rgb(204, 143, 228);
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-
+  justify-items: center;
+  justify-self: center;
 }
 
 .sidebar-frase {
-  background-color: rgb(204, 143, 228);
-  border-radius: 50%;
-  height: 250px;
   font-family: 'Ranga', cursive;
   font-size: 35px;
   color: white;
   padding: 10px;
+  text-align: center;
 }
-
 /*footer*/
 .contenedores .footer{
   grid-area: footer;
