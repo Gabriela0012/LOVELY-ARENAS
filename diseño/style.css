@@ -1,0 +1,164 @@
+    body {
+        margin: 0;
+        background-image: url("../img/fondo.jpg");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    /*header de todas las paginas*/
+    
+    .header {
+        margin-top: 0px;
+        background-color: rgb(230, 208, 240);
+    }
+    
+    .header_img {
+        display: flex;
+    }
+    
+    .header_img-logo {
+        width: 80%;
+    }
+    
+    .header_img-log-car {
+        width: 20%;
+        margin-top: 30px;
+    }
+    
+    .logo {
+        width: 200px;
+        height: 110px;
+        margin-left: 60px;
+        border-radius: 35%;
+        margin-right: 60%;
+    }
+    
+    .logearse {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    
+    .carrito {
+        width: 80px;
+        height: 80px;
+    }
+    
+    nav,
+    ul,
+    li,
+    a {
+        display: inline;
+        margin: 20px;
+        padding: 15px;
+        font-size: 25px;
+        color: rgb(155, 18, 182);
+        font-family: 'Ranga', cursive;
+        text-decoration: none;
+    }
+    /*todos los titulos H2 */
+    
+    h2 {
+        font-size: 25px;
+        color: rgb(155, 18, 182);
+        font-family: 'Ranga', cursive;
+    }
+    /*imagen index-tabla de talles*/
+    
+    .contenido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contenido-centro {
+        position: sticky;
+        width: 600px;
+        height: 500px;
+        border-radius: 20%;
+    }
+    /*footer  todas las paginas*/
+    
+    .footer {
+        display: flex;
+        background-color: rgb(230, 208, 240);
+        margin-bottom: 0%;
+    }
+    
+    .footer_imagenes_redes {
+        width: 50px;
+        height: 50px;
+        gap: 30px;
+    }
+    
+    .footer_imagenes>a {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .footer_legales {
+        width: 70%;
+        text-align: right;
+    }
+    /*productos*/
+    
+    .container {
+        display: -moz-box;
+    }
+    
+    .container_row-titulo {
+        text-align: center;
+    }
+    
+    .container_productos {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container_productos-1 {
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+        background-color: rgb(219, 73, 212);
+        border-radius: 25%;
+        opacity: 35%;
+    }
+    /*contactanos*/
+    
+    .contact {
+        width: 500px;
+        height: 600px;
+        margin: 30px;
+        background-color: rgba(218, 29, 208, 0.322);
+        border-radius: 15%;
+    }
+    
+    form,
+    input,
+    textarea {
+        margin: 10px;
+        font-size: 20px;
+        font-family: 'Ranga', cursive;
+        border-radius: 10%;
+        text-align: center;
+        border-color: violet;
+    }
+    /*informacion para comprar*/
+    
+    h3 {
+        font-size: 20px;
+        color: rgb(155, 18, 182);
+        font-family: 'Ranga', cursive;
+    }
+    
+    .texto {
+        width: 700px;
+        height: 600px;
+        margin: 30px;
+        padding: 30px;
+        background-color: rgba(218, 29, 209, 0.26);
+        border-radius: 15%;
+        font-size: 25px;
+        font-family: 'Ranga', cursive;
+        text-align: center;
+    }
