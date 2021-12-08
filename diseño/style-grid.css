@@ -44,20 +44,18 @@ body {
 }
 
 .header_img-logo {
-  width: 80%;
+  width: 70%;
 }
 
 .header_img-log-car {
-  width: 20%;
+  width: 30%;
   margin-top: 40px;
 }
 
 .logo {
   width: 200px;
   height: 110px;
-  margin-left: 60px;
   border-radius: 35%;
-  margin-right: 60%;
 }
 
 .logearse {
@@ -349,4 +347,105 @@ textarea {
   }
 
 }
-  
+/* <html lang="en"> */
+/* <head> */
+        /* <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{ 
+            background-image: linear-gradient(180deg, rgba(177, 255, 250, 0.74), rgb(92, 230, 255)) ;
+            background-attachment: fixed ;
+            }
+            /* div{
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            transition: width 2s, height 2s, transform 2s;
+            }
+            div:hover{
+            transform: rotate(180deg);
+            transform: scale(20,20);
+            }*/
+						/*.card{
+							width: 0;
+							height: 0;
+							border-top: 100px solid #eee;
+							border-right: 170px solid #ddd;
+							border-bottom: 100px solid #ccc;
+							border-left: 170px solid #bbb;
+							margin: auto;
+							margin-top: 10%;
+
+						}
+
+						.corazon{
+							width: 32px; 
+							height: 32px;
+							background-color: tomato;
+							transform: translate(-50%,-50%) rotate(45deg);
+							animation: latido 1.4s linear infinite;
+
+						}
+
+						.corazon:before{
+							content: "";
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							background-color: tomato;
+							transform: translateY(-50%);
+							border-radius: 50%;			
+						}
+						.corazon:after{
+							content: "";
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							background-color: tomato;
+							transform: translateX(-50%);
+							border-radius: 50%;
+						}
+
+						@keyframes latido{
+							0%{ transform: translate(-50%,-50%) rotate(45deg) scale(1);}
+							25%{ transform: translate(-50%,-50%) rotate(45deg) scale(1);}
+							30%{ transform: translate(-50%,-50%) rotate(45deg) scale(1.4);}
+							50%{ transform: translate(-50%,-50%) rotate(45deg) scale(1.2);}
+							70%{ transform: translate(-50%,-50%) rotate(45deg) scale(1.4);}
+							100%{ transform: translate(-50%,-50%) rotate(45deg) scale(1);}
+						}
+
+            </style>
+</head>
+
+<body>
+        <div class="card">
+					<div class="corazon"></div>
+
+
+				</div>
+</body>
+</html> */
+/* animacion logo */
+
+.logo {
+  width: 100px;
+  height: 60px;
+  margin: 50px;
+  animation: titilo 1.4s linear infinite;
+}
+
+@keyframes titilo{
+  0%{ transform: translate(-50%,-50%)  scale(1);}
+  25%{ transform: translate(-50%,-50%)  scale(1);}
+  30%{ transform: translate(-50%,-50%)  scale(1.4);}
+  50%{ transform: translate(-50%,-50%)  scale(1.2);}
+  70%{ transform: translate(-50%,-50%)  scale(1.4);}
+  100%{ transform: translate(-50%,-50%) scale(1);}
+}
